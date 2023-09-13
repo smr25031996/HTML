@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Range</h1>
+    Volume: <input type="range" name="" id="response " min="0" max="100" value="100" />
+    <output id="01" for="response"></output>
+
+    <br /><br />
+    <h1>Meter</h1>
+    Disk Usage: <meter min="0" max="100" value="50"></meter> <br />
+    <br />
+    <h1>Prgress</h1>
+    Task Completed:<progress min="0" max="100" value="" id=""></progress>
+
+
+    <br><br>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="b" name="b" value="" /> +
+        <input type="number" id="a" name="a" value="" /> =
+        <output name="result" for="a b"></output>
+      </form>
+<br><br>
+      <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" name="" id="a"> +
+        <input type="number" name="" id="b"> =
+        <output name="result" for="a b" ></output>
+    </form>
+      
+  </body>
+</html>
